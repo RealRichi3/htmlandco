@@ -1,0 +1,59 @@
+Anchor Tag - <a> - It is termed as anchor tag and it creates a hyperlink or link.
+
+Abbreviation Tag - <abbr> - It defines an abbreviation for a phrase or longer word
+
+Acronym - <acronym> - It defines acronym for a word. 
+
+Address - <address> - It defines the author's contact information of the HTML article
+
+Area - <area> - It defines the area of an image map.
+
+Article tag - <article> - It defines the self-contained content.
+
+Aside tag - <aside> - It defines content aside from main content. Mainly represented as sidebar.
+
+Audio tag - <audio> - It is used to embed sound content in HTML document.
+
+Bold text - <b> - It is used to make a text bold.
+
+Base tag - <base> - This tag defines the base URL for all relative URL within the document.
+
+Base font - <basefont> - This tag is used to set default font, size and color for all elements of document.
+
+BDI - <bdi> - This tag is used to provide isolation for that part of text which may be formatted in different directions from its surrounding text
+
+BDO - <bdo> - It is used to override the current text direction.
+
+Big - <big> - This tag is used to make font size one level larger than its surrounding content.
+
+Blockquote - <blockquote> - It is used to define a content which is taken from another source.
+
+Body tag - <body> - It is used to define the body section of an HTML document.
+
+Break tag - <br> - It is used to apply single line break.
+
+Button tag - <button> - It is used to represent a clickable button
+
+Canvas tag - <canvas> - It is used to provide a graphics space within a web document.
+
+Caption - <caption> - It is used to define a caption for a table.
+
+Center - <center> - It is used to align the content in center.
+
+Cite - <cite> - It is used to define the title of the work, book, website, etc.
+
+Code tag - <code> - It is used to display a part of programming code in an HTML document.
+
+Column tag - <col> - It defines a column within a table which represent common properties of columns and used with the <colgroup> element.
+
+Grouped Column tag - <colgroup> - It is used to define group of columns in a table.
+
+Definition/Description - <dd> - It is used to provide definition/description of a term in description list.
+
+Delete tag - <del> - It defines a text which has been deleted from the document.
+
+Defined tag - <dfn> - It is used to indicate a term which is defined within a sentence/phrase
+
+Dialog tag - <dialog> - It defines a dialog box or other interactive components.
+
+Directory tag - <dir> - It is used as container for directory list of files.
