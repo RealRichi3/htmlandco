@@ -7,3 +7,5 @@ https://dev.to/realrichi3/introduction-to-charsets-3gkc
 https://dev.to/realrichi3/git-branches-and-how-they-work-29e1
 
 https://dev.to/realrichi3/relative-and-absolute-paths-2ll6
+
+https://medium.com/@molunorichie/responsive-and-adaptive-designs-cc26ddbd432a
