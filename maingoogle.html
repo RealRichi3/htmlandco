@@ -5,16 +5,35 @@
 <head>
   <title>Google Homepage</title>
   <style>
+    .google-logo {
+        margin-top: 150px;
+        }
+    #searchbar {
+        width: 550px;
+        height: 25px;
+        border: 1px solid #a29b9b;
+        padding-bottom: 7px;
+        }
+    #search_button {
+        width: 150px;
+        height: 25px;
+        border: 1px solid #a29b9b;
+        
+        }
     .header {
         font-family: Arial;
         font-size: 15px;
-    }
+        }
     .footer {
         position: absolute;
         bottom: 0;
         width: 100%;
         font-family: Arial;
         font-size: 15px;
+        }
+    .lang{
+        font-family: Arial;
+        font-size: 13px;
     }
     </style>
 </head>
@@ -48,21 +67,23 @@
     <div class="search-buttons">
 
         <input type="button" value="Google Search" id="search_button">
-        <input type="button" value="I'm Feeling Lucky" id="lucky_button">
+        <input type="button" value="I'm Feeling Lucky" id="search_button">
     </div>
 
-    <ul style="list-style-type:none;">
-        <li>
-            <p> Google offered in: 
-            <span>
-               <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=ha&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCA4"> Hausa</a>
-               <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=ig&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCA8"> Igbo</a>
-               <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=yo&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCBA"> Ede Yoruba</a>
-               <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=pcm&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCBE"> Nigerian Pidgin</a>
-            </span>
-        </li>
-    <ul>
-
+    <div class="lang">
+        
+        <ul style="list-style-type:none;">
+            <li>
+                <p> Google offered in: 
+                <span>
+                <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=ha&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCA4"> Hausa</a>
+                <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=ig&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCA8"> Igbo</a>
+                <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=yo&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCBA"> Ede Yoruba</a>
+                <a href="https://www.google.com/setprefs?sig=0_P-_2rki0V-7o4qZejMgpMTGkKtk%3D&hl=pcm&source=homepage&sa=X&ved=0ahUKEwiY1Kf3iJf2AhWJEMAKHcFgAz4Q2ZgBCBE"> Nigerian Pidgin</a>
+                </span>
+            </li>
+        </ul>
+    </div>
     
     </center>
 
