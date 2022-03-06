@@ -1,14 +1,11 @@
-html {
-    height: 100%;
-}
+
 body {
-    margin:0;
-    padding:0;
-    background: url(./img/background.jpg);
+    background: url(./img/background.jpg) no-repeat center center fixed;
     background-size: cover;
-    font-family: sans-serif;
-    background-repeat: no-repeat;
-    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
 }
 
 .container {
@@ -17,11 +14,13 @@ body {
     background: rgba(0,0,0,0.5);
     color: #fff;
     position: center;
+    top: 150px;
+    margin:auto;
+    position: relative;
 
 }
 
 .login-area {
-    
-    
+    position: relative;
 
 }
