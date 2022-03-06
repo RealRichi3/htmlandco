@@ -8,20 +8,20 @@ body {
     background-size: cover;
     font-family: sans-serif;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-
-}
-.login-area {
-    width: 320px;
+    width: 360px;
     height: 420px;
     background: rgba(0,0,0,0.5);
     color: #fff;
     position: center;
+
+}
+
+.login-area {
+    
     
 
 }
