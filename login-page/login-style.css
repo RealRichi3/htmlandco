@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+body {
+    margin:0;
+    padding:0;
+    background: url(./img/background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    width: 360px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    position: center;
+
+}
+
+.login-area {
+    
+    
+
+}
