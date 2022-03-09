@@ -1,0 +1,11 @@
+
+
+In python, any interpreter you install by default works on the global environment which is not unique to each project. So, any project you start, for the packages needed, when installed or uninstalled they'll have an impact on the global environment.
+
+For example you work on different projects, you'll notice that some programs require a certain version of a particular program, and other projects may require another version of the program. It'll be difficult to keep track of the different versions in one environment, i.e Project_A and Project_B requires a certain package to work, lets call this package PackageB, it doesn't seem like a big deal at first, but lets say the two projects need a different version of the same package (PackageB), this is where the issue arises, it'll be difficult for python to differentiate the version number of the package.
+
+A good approach to solving this issue is introducing a Virtual environment. It solves this by keeping isolating each project in a seperate environment. It's more like a project subfolder that creates a unique duplicate of a specific interpreter. In this case, any package installed in the virtual environment are specific to that environment i.e they are only installed in that environment alone when activated.
+
+As we proceed, i'll show you how to setup and activate a virtuanenv for python3
+
+### Installing virualenv for Python3
