@@ -1,6 +1,7 @@
-body {
+body, html {
     background-color: #27292D;
     height: 100vh;
+    margin: 0;
 }
 
 .container {
@@ -10,30 +11,51 @@ body {
     background-color: #1F2024;
     margin: 0 auto;
     margin-top: 5%;
+    padding: 4%;
     border-radius: 15px;
     border: 2px solid;
     border-color: #43444b;
     position: relative;
 }
 
+/* Styling for the header of the body */
+
 #sub-header{
-    background-color: rgb(131, 127, 127);
-    height: 15%;
+    background-color: #1F2024;
+    height: 10%;
     width: 95%;
-    margin: auto;
+    /* margin: auto; */
+    margin-top: 2%;
+    padding-bottom: 0px;
     display: grid;
-    grid-template-columns: 3fr 1fr ;
-    
+    grid-template-columns: 3fr 1fr;;
+    color: #C0372E;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 4px solid;
+    border-color: #43444b;
 }
 
-#sub-header p{
-    color: red;
-    font-weight: bold;
+#right-text{
+    margin: 0;
+    display: inline;
     font-size: 20px;
+    padding-top: 0px;
 }
 
 #right-text li {
     display: inline;
-    padding-right: 20px;
+    padding-right: 50px;
+}
+
+#sub-header p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#right-text li:last-child {
     color: white;
 }
+
+/* Styling for the main body */
