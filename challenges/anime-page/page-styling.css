@@ -1,14 +1,42 @@
-body, html {
+body {
     background-color: #27292D;
     height: 100vh;
-    padding: 30px 10px ;
 }
 
 .container {
-    width: 75%;;
+    font-family: sans-serif;
+    width: 75%;
     height:75%;
     background-color: #1F2024;
-    margin: auto;
-    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #43444b;
     position: relative;
+}
+
+#sub-header{
+    background-color: rgb(131, 127, 127);
+    height: 15%;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+}
+
+#sub-header {
+    color: red;
+}
+
+#sub-header:first-child{
+    font-weight: oold;
+}
+#sub-header #right #right-text li {
+    display: inline;
+    padding-right: 20px;
+}
+
+#sub-header:last-child li:last-child{
+    color: white;    
 }
