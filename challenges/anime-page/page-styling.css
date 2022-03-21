@@ -70,32 +70,53 @@ body, html {
     margin-top: 15px;
     padding: 5px;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* grid-template-columns: 1fr 1fr; */
+    /* justify-content: space-between; */
 }
-
+/* 
 #sub-body div {
-    /* flex:1 1 auto; */
     background-color: #1F2024;
     height: 380px;
     width: 380px;
     margin-right: 5px;
-}
+} */
 
 .pane {
     background-color: #1F2024;
     width: 100%;
-    height: 350px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-}
-
-#right-pane{
-    flex: 1;
+    flex-direction: column ;
     
 }
 
-
-#left-pane {
-    flex: 1;   
+#left-pane  div{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
 }
+
+#left-paneUp {
+    display: flex;
+    flex-direction: row;
+    background-image: image("");
+}
+
+.front-img {
+    flex: 1 1 90%;
+    height: 100%;
+    width: 100%;
+    background: url(./img/front_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.bottom-detail {
+    flex: 1 2;
+}
+
+/* img {
+    object-fit: cover;
+} */
