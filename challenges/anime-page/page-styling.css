@@ -11,7 +11,7 @@ body, html {
     background-color: #1F2024;
     margin: auto;
     top: 10%;
-    padding-top: 2%;
+    padding-top: 10px;
     border-radius: 15px;
     border: 1px solid;
     border-color: #43444b;
@@ -27,6 +27,7 @@ body, html {
     width: 800px;
     margin: auto;
     margin-top: 2%;
+    padding-top: 15px;
     display: grid;
     grid-template-columns: 3fr 1fr;;
     color: #C0372E;
@@ -35,6 +36,12 @@ body, html {
     border-bottom: 2px solid;
     border-color: #43444b;
     box-sizing: border-box;
+}
+
+#sub-header p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #right-text{
@@ -49,14 +56,19 @@ body, html {
     padding-right: 15px;
 }
 
-#sub-header p{
-    margin: 0;
-    font-weight: bold;
-    font-size: 30px;
-}
-
 #right-text li:last-child {
     color: white;
 }
 
-/* Styling for the main body */
+/* Styling for the container body */
+
+#sub-body {
+    background-color: #b3b6c7;
+    height: 400px; 
+    width: 800px;
+    margin: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
