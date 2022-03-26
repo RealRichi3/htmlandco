@@ -94,7 +94,7 @@ body, html {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
 }
 
 #rating p{
@@ -102,7 +102,7 @@ body, html {
     border: 2px solid;
     width: 40px;
     padding: 5px;
-    height: 40px;
+    /* height: 40px; */
     text-align: center;
     border-color: #60616a;
     border-radius: 40px;
@@ -133,22 +133,41 @@ body, html {
 }
 
 #left-paneDown {
-    /* margin-bottom: 5px; */
     display: flex;
     flex-direction: column;
-    /* flex: 1 2; */
 }
 
 #movie-details{
-    padding-bottom: 5px;
-    display: flex;
-    /* white-space:nowrap;  */
-    /* flex-direction: row; */
-    height: 40px;
-    text-align: center;
+    display: flex;   
+}
+
+#movie-details div{
+    /* text-align: center; */
     font-size: 10px;
     color: white;
-    /* display: inline-block; */
+    padding-bottom: 5px;
+}
+
+/* #movie-details p{
+    width: 40px;
+    padding: 5px;
+    height: 30px;
+} */
+
+#username {
+    flex: 1;
+}
+
+#release-date {
+    flex: 2;
+}
+
+#comments {
+    flex: 1;
+}
+
+#reactions {
+    flex: 1;
 }
 
 #summary{
@@ -159,19 +178,20 @@ body, html {
 }
 
 .icon{
-    /* background: white; */
     height: 10px;
     width: 10px;
 }
 
 .sub-detail {
+    display: inline;
     /* width: 25px; */
     /* height: 20px; */
     /* list-style-type: none; */
     /* text-align: center; */
     /* float: left; */
     /* padding-right: 20px; */
-}
+} 
+
 #right-pane{
     display: flex;
     flex-direction: column;
