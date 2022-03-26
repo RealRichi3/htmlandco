@@ -6,7 +6,7 @@ body, html {
 
 .container {
     font-family: sans-serif;
-    width: 900px;
+    width: 810px;
     height: 520px;
     background-color: #1F2024;
     margin: auto;
@@ -24,7 +24,7 @@ body, html {
 #sub-header{
     background-color: #1F2024;
     height: 55px;
-    width: 800px;
+    width: 730px;
     margin: auto;
     margin-top: 2%;
     padding-top: 15px;
@@ -63,12 +63,12 @@ body, html {
 /* Styling for the container body */
 
 #sub-body {
-    background-color: #b3b6c7;
+    /* background-color: #b3b6c7; */
     height: 400px; 
-    width: 800px;
+    width: 730px;
     margin: auto;
     margin-top: 15px;
-    padding: 5px;
+    /* padding: 5px; */
     display: flex;
     /* justify-content: space-between; */
 }
@@ -106,13 +106,39 @@ body, html {
     flex: 1 1 90%;
     height: 100%;
     width: 100%;
-    background: url(./img/front_img.jpg);
+    background: url(./img/black_jack.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
-    margin: 2px;
+    border-radius: 20px;
+    /* margin: 2px; */
 }
 
+button {
+    outline: 0;
+    background: #C0372E;
+    height: 25px;
+    width: 70px;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 65px;
+    margin-left: 280px;
+}
+
+#rating p{
+    font-size: 20px;
+    border: 2px solid;
+    width: 40px;
+    padding-top: 8px;
+    height: 30px;
+    text-align: center;
+    border-color: #60616a;
+    border-radius: 35px;
+    color: white;
+    margin-left: 305px;
+    margin-top: 10px;
+}
 .bottom-detail {
     flex: 1 2;
 }
