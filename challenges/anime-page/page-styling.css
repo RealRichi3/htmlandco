@@ -107,7 +107,7 @@ body, html {
     border-radius: 40px;
     color: white;
     margin-left: 305px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
  
 .btn {
@@ -121,7 +121,7 @@ body, html {
     font-size: 10px;
 }
 #anime-btn {
-    margin-top: 95px;
+    margin-top: 90px;
     margin-left: 280px;
 }
 
@@ -151,6 +151,7 @@ body, html {
     width: 100%;
 }
 
+/* mov */
 .left-details {
     display: flex;
 }
@@ -159,12 +160,14 @@ body, html {
     flex: 1;
 }
 
-#release-date {
+.date #release-date {
     flex: 3;
+    width: 100%;
 }
 
-#comments {
+#comment {
     flex: 1;
+    color:#C0372E;
 }
 
 #reactions {
@@ -188,6 +191,7 @@ h2 {
     /* padding-top: 3px; */
     height: 11px;
     width: 11px;
+    float: left;
 }
 
 .sub-detail {
@@ -197,8 +201,57 @@ h2 {
 #right-pane{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
     width: 50%;
+    padding-left: 25px;
+}
+
+.preview-img{
+    height: 90px;
+    width: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /* padding-bottom: 5px; */
+}
+
+.rightpane-movies {
+    display: flex;
+    flex-direction: row;
+    /* box-sizing: border-box; */
+    /* padding-right: 10px; */
+}
+
+.rightpane-movies div{
+    padding-right: 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: #b1b5c9;
+    margin: 0;
+    margin-left: 2px;
+}
+
+.date_and_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+    /* float: right; */
+    /* width: 223.2 */
+}
+.movie-title{
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
 }
 /* img {
     object-fit: cover;
 } */
+0
