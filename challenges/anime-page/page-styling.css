@@ -156,7 +156,7 @@ body, html {
     display: flex;
 }
 
-#username {
+.date #username {
     flex: 1;
 }
 
@@ -165,12 +165,12 @@ body, html {
     width: 100%;
 }
 
-#comment {
+.date #comment {
     flex: 1;
     color:#C0372E;
 }
 
-#reactions {
+.date #reactions {
     flex: 1;
     width: 40px;
     /* padding-left: 20px; */
